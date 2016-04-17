@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML Tables</title>
+    <style>
+        #fruit h2{
+            text-align: center;
+        }
+        #fruit p{
+            text-align: left;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+<table id="fruit">
+    <thead>
+    <tr>
+        <th colspan="2" align="center">
+            <h2>
+                <em>Fresh Fruits</em>
+            </h2>
+        </th>
+    </tr>
+    </thead>
+    <tr>
+        <td>
+            <p>It has long been known that a diet <br />
+                that includes at least a few <br />
+                servings of fresh fruit every day <br />
+                will help keep you healthy, fit and <br />
+                trim.
+            </p>
+        </td>
+        <td>
+            <img src="fruits.png" alt="fruits" />
+        </td>
+    </tr>
+</table>
+
+<table id="table" border="1" cellpadding="4">
+    <tr>
+        <td colspan="3">
+            Title goes here
+        </td>
+        <td align="center">A</td>
+        <td align="right">B</td>
+    </tr>
+    <tr>
+        <td rowspan="3">C</td>
+        <td align="center">D</td>
+        <td align="center">E</td>
+        <td align="center">F</td>
+        <td align="right">G</td>
+    </tr>
+    <tr>
+        <td align="center">H</td>
+        <td colspan="2"align="center">I</td>
+        <td id="J" rowspan="2" align="right">J</td>
+    </tr>
+    <tr>
+        <td align="center">K</td>
+        <td align="center">L</td>
+        <td align="center">M</td>
+    </tr>
+    <tr>
+        <td align="right">N</td>
+        <td colspan="4" align="center">O</td>
+    </tr>
+</table>
+</body>
+</html>
