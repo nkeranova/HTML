@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+    <table border="1" class="form">
+        <tr>
+            <th>Last Name</th>
+            <td>
+                <label for="lastName"></label>
+                <input type="text" name="lastName" placeholder="Enter your last name here">
+            </td>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <td>
+                <label for="firstName"></label>
+                <input type="text" name="firstName" placeholder="Enter your first name here">
+            </td>
+        </tr>
+        <tr class="bigField">
+            <th>Address</th>
+            <td>
+                <label for="address"></label>
+                <input class="bigField" type="text" name="address" placeholder="Enter your addresss">
+            </td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td>
+                <label for="city"></label>
+                <input type="text" name="city" placeholder="Enter city">
+                State
+                <input id="state" type="text" name="state" placeholder="State">
+            </td>
+        </tr>
+        <tr>
+            <th>Zip/Postal Code</th>
+            <td>
+                <input type="text" name="postalCode" placeholder="Postal code">
+            </td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>
+                <select>
+                    <option>Albaniq</option>
+                    <option>Afghanistan</option>
+                    <option>Albania</option>
+                    <option>Algeria</option>
+                    <option>Andorra</option>
+                    <option>Angola</option>
+                    <option>Antigua and Barbuda</option>
+                    <option>Argentina</option>
+                    <option>Armenia</option>
+                    <option>Aruba</option>
+                    <option>Australia</option>
+                    <option>Austria</option>
+                    <option>Azerbaijan</option>
+                    <option>Bahamas</option>
+                    <option>Bahrain</option>
+                    <option>Bangladesh</option>
+                    <option>Barbados</option>
+                    <option>Belarus</option>
+                    <option>Belgium</option>
+                    <option>Belize</option>
+                    <option>Benin</option>
+                    <option>Bhutan</option>
+                    <option>Bolivia</option>
+                    <option>Bosnia and Herzegovina</option>
+                    <option>Botswana</option>
+                    <option>Brazil</option>
+                    <option>Brunei</option>
+                    <option selected>Bulgaria</option>
+                    <option>Burkina Faso</option>
+                    <option>Burma</option>
+                    <option>Burundi</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Phone (country code, <br/> area code, number)</th>
+            <td>
+                (+
+                <input id="phoneCode" type="text" placeholder="359">
+                )
+                <input id="phoneFirstPart" type="text" placeholder="88">
+                -
+                <input id="phoneSecondPart" type="text" placeholder="8956231">
+            </td>
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <td>
+                <input type="text" name="email" placeholder="xxxxxx@gmail.com@">
+            </td>
+        </tr>
+        <tr>
+            <th>Birth date</th>
+            <td>
+                Month
+                <input id="month" type="text" name="month" placeholder="mm">
+                Day
+                <input id="day" type="text" name="day" placeholder="dd">
+                Year(4 digits)
+                <input id="year" type="text" name="year" placeholder="yyyy">
+            </td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Starting date</th>
+            <td>
+                <input type="radio" name="radAnswer" checked>
+                <label for="spring">Spring 2016</label>
+
+                <input type="radio" name="radAnswer">
+                <label for="spring">Summer 2016</label>
+            </td>
+        </tr>
+        <tr class="bigField">
+            <th>Comments/Questions</th>
+            <td>
+                <input class="bigField" type="text" name="comment" placeholder="Please send me more information about the lodging">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">
+                <input type="submit" name="submit" value="Submit" />
+                <input type="reset" name="name" value="Clean This Form" />
+            </td>
+
+        </tr>
+    </table>
+</body>
+</html>

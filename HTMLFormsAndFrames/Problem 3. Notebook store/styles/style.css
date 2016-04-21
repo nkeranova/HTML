@@ -1,0 +1,27 @@
+table{
+    border-bottom-color: black;
+    border-radius: 10px;
+}
+
+thead tr th {
+    color: dodgerblue;
+    border: 2px inset;
+    font-size: 25px;
+}
+
+.price {
+    text-align: center;
+}
+
+.ranges {
+    font-size: 25px;
+}
+
+.ranges td {
+    padding: 30px;
+}
+
+.macbooks, .ranges {
+    border: 1px inset;
+    font-weight: bold;
+}

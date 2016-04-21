@@ -1,0 +1,34 @@
+table {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+thead, tfoot {
+    background-color: lightgrey;
+}
+
+thead  th {
+    font-weight: normal;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid lightgray;
+}
+
+img {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#one {
+    border: 1px solid red;
+}
+
+#all-items {
+    margin-left: 260px;
+}
+
+#top-header-cell {
+    text-align: left;
+}
