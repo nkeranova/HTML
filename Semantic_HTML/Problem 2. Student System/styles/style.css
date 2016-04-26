@@ -1,0 +1,20 @@
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+li {
+    color: black;
+}
+h1,h2{
+    display: inline;
+}
+h2{
+    margin-left: 200px;
+}
+table{
+    border: black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
